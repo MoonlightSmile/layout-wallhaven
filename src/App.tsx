@@ -46,8 +46,9 @@ const App = () => {
         params: {
           page,
           sorting: "toplist",
-          purity: "100",
+          purity: "110",
           topRange: "1w",
+          apikey: "Vwzk25Ny7FJl3FLyGYlrh5Fm3LbjwjGG",
         } as Params,
       })
       .then((_e) => {
