@@ -46,7 +46,7 @@ const App = () => {
         params: {
           page,
           sorting: "toplist",
-          purity: "110",
+          purity: "111",
           topRange: "1w",
           apikey: "Vwzk25Ny7FJl3FLyGYlrh5Fm3LbjwjGG",
         } as Params,
