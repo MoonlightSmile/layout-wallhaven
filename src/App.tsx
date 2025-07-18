@@ -48,7 +48,9 @@ const App = () => {
           sorting: "toplist",
           purity: "100",
           topRange: "1w",
-          apikey: "Vwzk25Ny7FJl3FLyGYlrh5Fm3LbjwjGG",
+          ...Object.fromEntries(
+            new URLSearchParams(window.location.search).entries()
+          ),
         } as Params,
       })
       .then((_e) => {
